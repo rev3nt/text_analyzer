@@ -19,6 +19,7 @@ def vowels_counter(text):
 
     return vowels
 
+
 def clear_text(text):
     for letter in text:
         if letter in sign_list:
@@ -34,7 +35,6 @@ vowels_list = ['а', 'е', 'ё', 'и', 'о', 'у', 'ы', 'э', 'ю', 'я']
 words_counter_dict = {}
 
 text = input("Введите текст: ").lower()
-#text = "Нет, нет, нет! Это невозможно. Почему? Почему так происходит? Жду, жду, жду ответа...".lower()
 
 split_text = str(clear_text(text)).lower().split()
 
